@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:wght@400;600&family=Zen+Kaku+Gothic+New:wght@300;400;500&display=swap');
+
+// font-family: 'Zen Kaku Gothic New', sans-serif;
+// font-family: 'Shippori Mincho B1', serif;
+
+$breakpoints: (
+    'pc': 'screen and (min-width: 1440px)',
+    'tb': 'screen and (max-width: 1439px)',
+    'sp': 'screen and (max-width: 999px)',
+) !default;
+@mixin mq($breakpoint) {
+    @media #{map-get($breakpoints, $breakpoint)} {
+        @content;
+    }
+}
+
+$color_text: #231815;
+
+$color_daichi: #825a17;
+$color_factory: #e6442b;
+$color_deli: #73a500;
+$color_dining: #910017;
+$color_liquor: #345b91;
+
+.for-sp {
+    display: none !important;
+    @include mq(sp) {
+        display: block !important;
+    }
+}
+.for-tb {
+    display: none !important;
+    @include mq(tb) {
+        display: block !important;
+    }
+}
+.for-pc {
+    display: block !important;
+    @include mq(tb) {
+        display: none !important;
+    }
+}
+
+body {
+    font-family: 'Zen Kaku Gothic New', sans-serif;
+    color: $color_text;
+}
+a {
+    text-decoration: none;
+    color: $color_text;
+}
+img {
+	vertical-align:top;
+}
+
+// factory button 
+.factory-btn {
+    display: block;
+    background-color: #fff;
+    border: 2px solid $color_factory;
+    font-size: 16px;
+    font-weight: 600;
+    color: $color_factory;
+    min-width: 300px;
+    height: 66px;
+    display: flex;
+    align-items: center;
+    border-radius: 32px;
+    position: relative;
+    padding-left: 45px;
+    @include mq(tb) {
+        font-size: 2.666vw;
+        max-width: calc(100vw - 50px);
+        height: 4em;
+        border-radius: 2em;
+        min-width: 38vw;
+    }
+    &::after {
+        position: absolute;
+        content: '';
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        background-color: #fbe5e1;
+        top: 10px;
+        right: 10px;
+        background-image: url('../images/icon_arrow1.svg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 16px;
+        @include mq(tb) {
+            width: 3em;
+            height: 3em;
+            top: .3em;
+            right: .5em;
+            background-size: 1em;
+            border-radius: 50%;
+        }
+    }
+}
