@@ -614,7 +614,7 @@
                     @include mq(tb) {
                         width: 100%;
                         height: auto;
-                        padding: 60px 40px 60px;
+                        padding:1em;
                     }
                     .title {
                         font-size: 22px;
@@ -662,6 +662,7 @@
                 background-size: 10px;
                 background-repeat: no-repeat;
                 background-position: center;
+                background-color: #f2f2e8;
             }
             .slick-next {
                 left: 30px;
@@ -711,6 +712,9 @@ section.link {
                 top: 50%;
                 right: 50px;
                 transform: translate(0, -50%);
+                @include mq(tb) {
+                    right: 20px;
+                }
             }
             span {
                 display: block;
@@ -755,6 +759,9 @@ section.link {
                 top: 50%;
                 right: 50px;
                 transform: translate(0, -50%);
+                @include mq(tb) {
+                    right: 20px;
+                }
             }
             &::after {
                 width: 53px;
