@@ -1,4 +1,4 @@
-.contact {
+div.contact {
     .inner {
         width: 100vw;
         background-color: #eaeaea;
@@ -41,6 +41,10 @@
                 width: 40%;
                 padding: 50px 0 50px 150px;
                 position: relative;
+                transition: 1s;
+                &:hover {
+                    opacity: .5;
+                }
                 @include mq(tb) {
                     width: 100%;
                     padding: 25px 0 25px 150px;
@@ -72,6 +76,7 @@
             }
             .tel {
                 font-size: 40px;
+                font-weight: 600;
                 border-right: 1px solid #e3e3e3;
                 @include mq(tb) {
                     border-right: none;
@@ -83,6 +88,7 @@
                 span {
                     display: block;
                     font-size: 18px;
+                    font-weight: 400;
                     margin-top: 1em;
                 }
             }
@@ -150,6 +156,10 @@
                     font-weight: 600;
                     display: block;
                     margin-bottom: 1.5em;
+                    transition: .5s;
+                    &:hover {
+                        opacity: .5;
+                    }
                     @include mq(tb) {
                         display: none;
                     }

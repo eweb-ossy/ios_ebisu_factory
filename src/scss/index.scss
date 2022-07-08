@@ -106,6 +106,10 @@
         height: 150px;
         margin: 0 15px;
         cursor: pointer;
+        transition: .5s;
+        &:hover {
+            opacity: .5;
+        }
         @include mq(tb) {
             width: 30vw;
             height: calc(30vw * 0.71);
@@ -201,6 +205,10 @@
                     border-radius: 20px;
                     margin-right: 5px;
                     position: relative;
+                    transition: 1s;
+                    &:hover {
+                        opacity: .5;
+                    }
                     &::after {
                         position: absolute;
                         content: '';
@@ -222,6 +230,10 @@
                 padding: 20px 125px 20px 30px;
                 border-bottom: 1px solid #e3e3e3;
                 position: relative;
+                transition: 1s;
+                &:hover {
+                    background-color: #f9f9f9;
+                }
                 &::after {
                     position: absolute;
                     content: '';
@@ -328,6 +340,10 @@
                 color: $color_factory;
                 background-repeat: no-repeat;
                 position: relative;
+                transition: 1s;
+                &:hover {
+                    opacity: .5;
+                }
                 @include mq(tb) {
                     width: 100%;
                     min-height: 240px;
@@ -658,11 +674,28 @@
                 cursor: pointer;
                 bottom: 0;
                 z-index: 2;
-                background-image: url('../images/icon_arrow2.svg');
-                background-size: 10px;
-                background-repeat: no-repeat;
-                background-position: center;
                 background-color: #f2f2e8;
+                transition: 1s;
+                &:hover {
+                    background-color: $color_factory;
+                    &::after {
+                        background-color: #fff;
+                    }
+                }
+                &::after {
+                    content: '';
+                    position: absolute;
+                    width: 53px;
+                    height: 53px;
+                    top: 0;
+                    left: 0;
+                    mask-image: url('../images/icon_arrow2.svg');
+                    mask-size: 10px;
+                    mask-repeat: no-repeat;
+                    mask-position: center;
+                    background-color: $color_factory;
+                    transition: 1s;
+                }
             }
             .slick-next {
                 left: 30px;
@@ -699,6 +732,10 @@ section.link {
             background-repeat: no-repeat;
             background-size: contain;
             position: relative;
+            transition: 1s;
+            &:hover {
+                opacity: .5;
+            }
             @include mq(tb) {
                 width: 100vw;
                 height: calc(100vw * 0.6);

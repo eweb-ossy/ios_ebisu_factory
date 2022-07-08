@@ -130,6 +130,10 @@
                 a {
                     font-size: 16px;
                     font-weight: 600;
+                    transition: .5s;
+                    &:hover {
+                        color: $color_factory;
+                    }
                     @include mq(tb) {
                         color: #fff;
                         // position: relative;
@@ -164,6 +168,11 @@
                 a {
                     font-size: 14px;
                     font-weight: 400;
+                    transition: .5s;
+                    &:hover {
+                        color: initial;
+                        opacity: .5;
+                    }
                     @include mq(tb) {
                         font-size: 16px;
                         font-weight: 600;
@@ -177,6 +186,9 @@
                     line-height: 1;
                     border-radius: 30px;
                     color: #fff;
+                    &:hover {
+                        color: #fff;
+                    }
                     @include mq(tb) {
                         background-color: initial;
                     }
