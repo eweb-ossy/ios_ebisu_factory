@@ -61,7 +61,7 @@ const watchFiles = () => {
     watch(paths.css.src, cssSass)
     watch(paths.js.src, jsCompile)
     watch(paths.img.src, images)
-    watch(paths.img.src, imageWebp)
+    // watch(paths.img.src, imageWebp)
 }
 
 exports.default = watchFiles;

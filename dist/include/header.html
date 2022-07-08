@@ -1,7 +1,7 @@
 <header class="header">
     <h1 class="header-logo">
-        <a href=""><img src="images/logo_factory_column_color.svg" alt="EBISU FOOD FACTORY" class="factory"></a>
-        <a href=""><img src="images/logo_brand_column.svg" alt="漢方和牛＆漢方三元豚 ダイチ" class="daichi"></a>
+        <a href="/"><img src="images/logo_factory_column_color.svg" alt="EBISU FOOD FACTORY" class="factory"></a>
+        <a href="/"><img src="images/logo_brand_column.svg" alt="漢方和牛＆漢方三元豚 ダイチ" class="daichi"></a>
     </h1>
     <div class="header-nav-btn for-tb">
         <div id="nav_btn" class="btn">

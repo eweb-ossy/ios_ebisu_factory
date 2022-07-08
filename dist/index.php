@@ -17,22 +17,25 @@
                 <img src="images/top_mv_photo_01.jpg" alt="" data-caption="<p>地元の魅力を詰め込んだ</p><p>商品づくり。</p>">
             </div>
             <div class="slide">
-                <img src="images/top_mv_photo_02.jpg" alt="" data-caption="<p>地元の魅力を詰め込んだ22222</p><p>コメント2。</p>">
+                <img src="images/top_mv_photo_02.jpg" alt="" data-caption="<p>地元の魅力を詰め込んだ2</p><p>コメント2。</p>">
             </div>
             <div class="slide">
-                <img src="images/top_mv_photo_03.jpg" alt="" data-caption="<p>地元の魅力を詰め込んだ3333</p><p>コメント333。</p>">
+                <img src="images/top_mv_photo_03.jpg" alt="" data-caption="<p>地元の魅力を詰め込んだ3</p><p>コメント3。</p>">
             </div>
             <div class="slide">
-                <img src="images/top_mv_photo_04.jpg" alt="" data-caption="<p>地元の魅力を詰め込んだ44</p><p>コメント44</p>">
+                <img src="images/top_mv_photo_04.jpg" alt="" data-caption="<p>地元の魅力を詰め込んだ4</p><p>コメント4</p>">
             </div>
             <div class="slide">
-                <img src="images/top_mv_photo_05.jpg" alt="" data-caption="<p>地元の魅力を詰め込んだ55</p><p>コメント555</p>">
+                <img src="images/top_mv_photo_05.jpg" alt="" data-caption="<p>地元の魅力を詰め込んだ5</p><p>コメント5</p>">
             </div>
             <div class="slide">
-                <img src="images/top_mv_photo_06.jpg" alt="" data-caption="<p>地元の魅力を詰め込んだ66</p><p>コメント666</p>">
+                <img src="images/top_mv_photo_06.jpg" alt="" data-caption="<p>地元の魅力を詰め込んだ6</p><p>コメント6</p>">
             </div>
             <div class="slide">
-                <img src="images/top_mv_photo_02.jpg" alt="" data-caption="<p>地元の魅力を詰め込んだ22222</p><p>コメント2。</p>">
+                <img src="images/top_mv_photo_07.jpg" alt="" data-caption="<p>地元の魅力を詰め込んだ7</p><p>コメント7。</p>">
+            </div>
+            <div class="slide">
+                <img src="images/top_mv_photo_08.jpg" alt="" data-caption="<p>地元の魅力を詰め込んだ8</p><p>コメント8。</p>">
             </div>
         </div>
         <div id="mv_caption" class="slide-main-on-text">
@@ -63,7 +66,10 @@
             <img src="images/top_mv_photo_thumbnail_06.png" alt="">
         </div>
         <div class="slide">
-            <img src="images/top_mv_photo_thumbnail_02.png" alt="">
+            <img src="images/top_mv_photo_thumbnail_07.png" alt="">
+        </div>
+        <div class="slide">
+            <img src="images/top_mv_photo_thumbnail_08.png" alt="">
         </div>
     </div>
 
