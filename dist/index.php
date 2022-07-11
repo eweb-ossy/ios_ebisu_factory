@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/index.css?<?= time() ?>">
 </head>
 <body>
-    <?php require_once('include/header.php'); ?>
+    <?php require('include/header.php'); ?>
 
     <div class="mv">
         <!-- data-caption="<p>コメント</p><p>コメント</p>" <p>〜</p>　2つまで -->
@@ -242,8 +242,8 @@
         </div>
     </section>
 
-    <?php require_once('include/contact.php'); ?>
-    <?php require_once('include/footer.php'); ?>
+    <?php require('include/contact.php'); ?>
+    <?php require('include/footer.php'); ?>
     <script src="js/index.js?<?= time() ?>"></script>
 </body>
 </html>
