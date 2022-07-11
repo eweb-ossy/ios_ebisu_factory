@@ -1,0 +1,29 @@
+.breadcrumblist {
+    @include mq(tb) {
+        display: none;
+    }
+    ul {
+        display: flex;
+        padding: 20px 0 20px 70px;
+        li {
+            list-style-type: none;
+            &:not(:last-child) {
+                margin-right: 3em;
+                position: relative;
+                a {
+                    color: #808080;
+                }
+                &::after {
+                    content: '/';
+                    position: absolute;
+                    top: 0;
+                    right: -1.5em;
+                }
+            }
+            a {
+                font-size: 14px;
+                line-height: 1;
+            }
+        }
+    }
+}

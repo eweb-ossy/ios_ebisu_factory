@@ -1,0 +1,73 @@
+.mv {
+    .inner {
+        width: 100vw;
+        padding: 0 35px;
+        margin: 15px 0;
+        height: calc((100vw - 70px) * 0.33);
+        display: flex;
+        @include mq(sp) {
+           padding: 0;
+           height: auto;
+           display: block;
+        }
+        .mv-lead {
+            width: 35%;
+            height: calc((100vw - 70px) * 0.33);
+            background-color: $color_factory;
+            border-radius: 25px 0 0 25px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            @include mq(sp) {
+                width: 100%;
+                border-radius: 0;
+                justify-content: flex-start;
+                padding: 1em 8vw;
+                background-color: $color_factory;
+            }
+            h1 {
+                font-size: 33px;
+                font-weight: 600;
+                color: #fff;
+                @include mq(tb) {
+                    font-size: clamp(12px, 4.87vw, 33px);
+                }
+                span {
+                    display: block;
+                    padding-top: 1em;
+                    font-size: 21px;
+                    @include mq(tb) {
+                        font-size: clamp(16px, 3.1vw, 21px);
+                    }
+                }
+            }
+        }
+        .mv-photo {
+            width: 65%;
+            overflow: hidden;
+            border-radius: 0 25px 25px 0;
+            @include mq(sp) {
+                width: 100%;
+                padding: 0 8vw;
+                border-radius: 0;
+                position: relative;
+                &::after {
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: calc((100vw - 16vw) * 0.4);
+                    background-color: $color_factory;
+                    z-index: -1;
+                }
+            }
+            img {
+                width: 100%;
+                @include mq(sp) {
+                    border-radius: 10px;
+                }
+            }
+        }
+    }
+}

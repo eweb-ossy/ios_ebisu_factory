@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex">
     <title>ゑびすフードファクトリー</title>
     <link rel="stylesheet" href="css/index.css?<?= time() ?>">
 </head>
@@ -14,28 +15,28 @@
         <!-- data-caption="<p>コメント</p><p>コメント</p>" <p>〜</p>　2つまで -->
         <div class="slide-main">
             <div class="slide">
-                <img src="images/top_mv_photo_01.jpg" alt="" data-caption="<p>地元の魅力を詰め込んだ</p><p>商品づくり。</p>">
+                <img src="images/top_mv_photo_01.jpg" loading="lazy" alt="" data-caption="<p>地元の魅力を詰め込んだ</p><p>商品づくり。</p>">
             </div>
             <div class="slide">
-                <img src="images/top_mv_photo_02.jpg" alt="" data-caption="<p>地元の魅力を詰め込んだ2</p><p>コメント2。</p>">
+                <img src="images/top_mv_photo_02.jpg" loading="lazy" alt="" data-caption="<p>地元の魅力を詰め込んだ2</p><p>コメント2。</p>">
             </div>
             <div class="slide">
-                <img src="images/top_mv_photo_03.jpg" alt="" data-caption="<p>地元の魅力を詰め込んだ3</p><p>コメント3。</p>">
+                <img src="images/top_mv_photo_03.jpg" loading="lazy" alt="" data-caption="<p>地元の魅力を詰め込んだ3</p><p>コメント3。</p>">
             </div>
             <div class="slide">
-                <img src="images/top_mv_photo_04.jpg" alt="" data-caption="<p>地元の魅力を詰め込んだ4</p><p>コメント4</p>">
+                <img src="images/top_mv_photo_04.jpg" loading="lazy" alt="" data-caption="<p>地元の魅力を詰め込んだ4</p><p>コメント4</p>">
             </div>
             <div class="slide">
-                <img src="images/top_mv_photo_05.jpg" alt="" data-caption="<p>地元の魅力を詰め込んだ5</p><p>コメント5</p>">
+                <img src="images/top_mv_photo_05.jpg" loading="lazy" alt="" data-caption="<p>地元の魅力を詰め込んだ5</p><p>コメント5</p>">
             </div>
             <div class="slide">
-                <img src="images/top_mv_photo_06.jpg" alt="" data-caption="<p>地元の魅力を詰め込んだ6</p><p>コメント6</p>">
+                <img src="images/top_mv_photo_06.jpg" loading="lazy" alt="" data-caption="<p>地元の魅力を詰め込んだ6</p><p>コメント6</p>">
             </div>
             <div class="slide">
-                <img src="images/top_mv_photo_07.jpg" alt="" data-caption="<p>地元の魅力を詰め込んだ7</p><p>コメント7。</p>">
+                <img src="images/top_mv_photo_07.jpg" loading="lazy" alt="" data-caption="<p>地元の魅力を詰め込んだ7</p><p>コメント7。</p>">
             </div>
             <div class="slide">
-                <img src="images/top_mv_photo_08.jpg" alt="" data-caption="<p>地元の魅力を詰め込んだ8</p><p>コメント8。</p>">
+                <img src="images/top_mv_photo_08.jpg" loading="lazy" alt="" data-caption="<p>地元の魅力を詰め込んだ8</p><p>コメント8。</p>">
             </div>
         </div>
         <div id="mv_caption" class="slide-main-on-text">
@@ -48,28 +49,28 @@
     </div>
     <div class="mv-slide-thumbnail">
         <div class="slide">
-            <img src="images/top_mv_photo_thumbnail_01.png" alt="" id="aa">
+            <img src="images/top_mv_photo_thumbnail_01.png" loading="lazy" alt="" id="aa">
         </div>
         <div class="slide">
-            <img src="images/top_mv_photo_thumbnail_02.png" alt="">
+            <img src="images/top_mv_photo_thumbnail_02.png" loading="lazy" alt="">
         </div>
         <div class="slide">
-            <img src="images/top_mv_photo_thumbnail_03.png" alt="">
+            <img src="images/top_mv_photo_thumbnail_03.png" loading="lazy" alt="">
         </div>
         <div class="slide">
-            <img src="images/top_mv_photo_thumbnail_04.png" alt="">
+            <img src="images/top_mv_photo_thumbnail_04.png" loading="lazy" alt="">
         </div>
         <div class="slide">
-            <img src="images/top_mv_photo_thumbnail_05.png" alt="">
+            <img src="images/top_mv_photo_thumbnail_05.png" loading="lazy" alt="">
         </div>
         <div class="slide">
-            <img src="images/top_mv_photo_thumbnail_06.png" alt="">
+            <img src="images/top_mv_photo_thumbnail_06.png" loading="lazy" alt="">
         </div>
         <div class="slide">
-            <img src="images/top_mv_photo_thumbnail_07.png" alt="">
+            <img src="images/top_mv_photo_thumbnail_07.png" loading="lazy" alt="">
         </div>
         <div class="slide">
-            <img src="images/top_mv_photo_thumbnail_08.png" alt="">
+            <img src="images/top_mv_photo_thumbnail_08.png" loading="lazy" alt="">
         </div>
     </div>
 
@@ -119,7 +120,7 @@
         <div class="inner">
             <h2>商品情報<span>PRODUCT</span></h2>
             <p>ゑびすキッチンでは、関村牧場の「漢方和牛」<br class="for-sp">「漢方三元豚」を使用した商品を製造・販売しています。</p>
-            <div class="logo">14種類の漢方飼料で育った<img src="images/logo_brand_column.svg" alt="漢方和牛＆漢方三元豚 ダイチ"></div>
+            <div class="logo">14種類の漢方飼料で育った<img src="images/logo_brand_column.svg" loading="lazy" alt="漢方和牛＆漢方三元豚 ダイチ"></div>
             <div class="row">
                 <a href="" class="block">新商品</a>
                 <a href="" class="block">ハム・ソーセージ</a>
@@ -139,7 +140,7 @@
             <h2>大切にしていること<span>POLICY</span></h2>
             <div class="row left">
                 <div class="policy-img">
-                    <img src="images/top_policy_img_01.png" alt="安心安全トレーサビリティ">
+                    <img src="images/top_policy_img_01.png" loading="lazy" alt="安心安全トレーサビリティ">
                 </div>
                 <div class="policy-text">
                     <h3>安心安全トレーサビリティ</h3>
@@ -154,12 +155,12 @@
                     <a href="" class="factory-btn">詳しくはこちら</a>
                 </div>
                 <div class="policy-img">
-                    <img src="images/top_policy_img_02.png" alt="栄養と健康">
+                    <img src="images/top_policy_img_02.png" loading="lazy" alt="栄養と健康">
                 </div>
             </div>
             <div class="row left">
                 <div class="policy-img">
-                    <img src="images/top_policy_img_03.png" alt="安全管理">
+                    <img src="images/top_policy_img_03.png" loading="lazy" alt="安全管理">
                 </div>
                 <div class="policy-text">
                     <h3>安全管理</h3>
@@ -174,7 +175,7 @@
                     <a href="" class="factory-btn">詳しくはこちら</a>
                 </div>
                 <div class="policy-img">
-                    <img src="images/top_policy_img_04.png" alt="サステナビリティ">
+                    <img src="images/top_policy_img_04.png" loading="lazy" alt="サステナビリティ">
                 </div>
             </div>
         </div>
