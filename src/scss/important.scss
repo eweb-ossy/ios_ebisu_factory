@@ -1,0 +1,160 @@
+@import "include/reset";
+@import "include/common";
+@import "include/header";
+@import "include/contact";
+@import "include/footer";
+@import "include/sub_mv";
+@import "include/breadcrumblist";
+@import "../../node_modules/slick-carousel/slick/slick.scss";
+
+.catch {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 1.8;
+    padding: 2em 0;
+    color: $color_factory;
+    @include mq(tb) {
+        font-size: 5.1695vw;
+    }
+}
+
+// section tracebility 
+section.tracebility {
+    .inner {
+        display: flex;
+        &:not(:first-child) {
+            margin-bottom: 170px;
+        }
+        @include mq(tb) {
+            display: block;
+        }
+        .image {
+            width: 46.86vw;
+            z-index: 2;
+            @include mq(tb) {
+                width: calc(100vw - 8vw);
+            }
+            img {
+                width: 100%;
+            }
+        }
+        .text {
+            width: 510px;
+            padding-top: 100px;
+            @include mq(tb) {
+                width: 100vw;
+                padding: 10vw 8vw;
+            }
+            h2 {
+                font-size: 31px;
+                font-weight: 600;
+                color: $color_factory;
+                padding-left: 60px;
+                padding-bottom: 1em;
+                position: relative;
+                margin-bottom: 1em;
+                @include mq(tb) {
+                    font-size: 4.5787vw;
+                }
+                &::before {
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 57px;
+                    height: 39px;
+                    background-image: url('../images/icon_cow.svg');
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                }
+                &::after {
+                    content: '';
+                    position: absolute;
+                    bottom: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 3px;
+                    background-image: url('../images/line_dots_red.svg');
+                    background-repeat: repeat-x;
+                }
+            }
+            h3 {
+                font-size: 20px;
+                font-weight: 600;
+                color: $color_factory;
+                margin-bottom: .8em;
+                @include mq(tb) {
+                    font-size: 2.954vw;
+                }
+            }
+            p {
+                font-size: 16px;
+                line-height: 1.8;
+                padding-bottom: 1em;
+                margin-bottom: 1em;
+                @include mq(tb) {
+                    font-size: 2.3632vw;
+                }
+            }
+        }
+        &.left .image {
+            margin-right: 90px;
+            @include mq(tb) {
+                margin-right: 8vw;
+            }
+        }
+        &.right {
+           flex-direction: row-reverse;
+        }
+        &.right .image {
+            margin-left: 90px;
+            @include mq(tb) {
+                margin-left: 8vw;
+            }
+        }
+        &.gray-bg {
+            background-color: #f5f5f0;
+            position: relative;
+            &::before {
+                content: '';
+                position: absolute;
+                width: 100%;
+                height: 40px;
+                background-color: #fff;
+                top: 0;
+                left: 0;
+                @include mq(tb) {
+                    height: 0;
+                }
+            }
+        }
+    }
+    .figure {
+        text-align: center;
+        padding: 80px 0;
+        margin-bottom: 170px;
+        background-color: #f5f5f0;
+        @include mq(tb) {
+            padding: 8vw;
+        }
+        img {
+            width: 810px; 
+            @include mq(tb) {
+                width: 100%;
+            }
+        }
+    }
+}
+
+div.contact .inner {
+    &::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 200px;
+        background-color: #fff;
+        top: 0;
+        left: 0;
+    }
+}

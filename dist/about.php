@@ -73,7 +73,7 @@
     </section>
     <section class="links">
         <div class="inner">
-            <a href="">大切にしていること</a>
+            <a href="important.html">大切にしていること</a>
             <a href="">製造工場</a>
         </div>
     </section>
