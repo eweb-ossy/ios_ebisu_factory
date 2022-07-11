@@ -16,7 +16,7 @@
                 <a class="info" href="about.html">ファクトリーについて</a>
                 <ul class="for-tb">
                     <li><a href="important.html">大切にしていること</a></li>
-                    <li><a href="">製造工場</a></li>
+                    <li><a href="about_factory.html">製造工場</a></li>
                 </ul>
             </li>
             <li><a href="">OEMについて</a></li>

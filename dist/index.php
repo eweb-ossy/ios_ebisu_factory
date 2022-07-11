@@ -145,14 +145,14 @@
                 <div class="policy-text">
                     <h3>安心安全トレーサビリティ</h3>
                     <p>食材の生産・原材料・流通経路を追跡できる仕組み「トレーサビリティ」は、長年地域と繋がり活動してきたゑびすグループでは、当時から続けてきたあたりまえのことでもあります。こだわりのお肉や新鮮な野菜のおいしさを活かした安心・安全な食をお届けします。</p>
-                    <a href="" class="factory-btn">詳しくはこちら</a>
+                    <a href="important.html#policy1" class="factory-btn">詳しくはこちら</a>
                 </div>
             </div>
             <div class="row right">
                 <div class="policy-text">
                     <h3>栄養と健康</h3>
                     <p>ゑびすファクトリーで作られる商品は、全て化学調味料不使用&無添加。商品の元となる原料は、その安全性や栄養・おいしさに折り紙つきの、地元の食材が中心です。地域との繋がりを地盤に、食べる人の健康を第一に考え、安心・安全を徹底した商品づくりを行なっています。</p>
-                    <a href="" class="factory-btn">詳しくはこちら</a>
+                    <a href="important.html#policy2" class="factory-btn">詳しくはこちら</a>
                 </div>
                 <div class="policy-img">
                     <img src="images/top_policy_img_02.png" loading="lazy" alt="栄養と健康">
@@ -165,14 +165,14 @@
                 <div class="policy-text">
                     <h3>安全管理</h3>
                     <p>機械やシステムの使い方はもちろん、スタッフ全員が安全に業務こなせるよう、マニュアルに沿って作業を行います。安心・安全な製品をお届けできるよう、現場の環境を整えることからしっかりと取り組んでいます。</p>
-                    <a href="" class="factory-btn">詳しくはこちら</a>
+                    <a href="important.html#policy3" class="factory-btn">詳しくはこちら</a>
                 </div>
             </div>
             <div class="row right">
                 <div class="policy-text">
                     <h3>サステナビリティ</h3>
                     <p>地域社会との関わりを通じ、持続可能なフードロス削減や輸送時のCO2排出量削減を意識した取り組みを行なえるのは、原料の生産から加工・出荷までを一貫して行うゑびすグループの強みです。安心・安全な食材を無駄にしない活動を通じ、地域、そして日本のフードロス削減に貢献してまいります。</p>
-                    <a href="" class="factory-btn">詳しくはこちら</a>
+                    <a href="important.html#policy4" class="factory-btn">詳しくはこちら</a>
                 </div>
                 <div class="policy-img">
                     <img src="images/top_policy_img_04.png" loading="lazy" alt="サステナビリティ">
@@ -183,16 +183,12 @@
 
     <section class="voice">
         <div class="inner">
-            <!-- 35px 13px b -->
             <h2>お客様の声<span>VOICE</span></h2>
             <div class="slide-voice">
                 <div class="slide">
                     <div class="voice-box red">
-                        <!-- 22px b -->
                         <div class="title">食卓の主役として<br>重宝しています。<br>小学生の子供の大好物です！</div>
-                        <!-- 15px 808080 -->
                         <div class="name">30代 女性</div>
-                        <!-- 15px -->
                         <div class="body">お客様の声が入ります。お客様の声が入ります。お客様の声が入ります。お客様の声が入ります。お客様の声が入ります。お客様の声が入ります。お客様の声が入ります。お客様の声が入ります。お客様の声が入ります。</div>
                     </div>
                 </div>

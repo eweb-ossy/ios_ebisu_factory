@@ -74,7 +74,7 @@
     <section class="links">
         <div class="inner">
             <a href="important.html">大切にしていること</a>
-            <a href="">製造工場</a>
+            <a href="about_factory.html">製造工場</a>
         </div>
     </section>
     <section class="access">

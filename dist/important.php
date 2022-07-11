@@ -29,7 +29,7 @@
     </div>
     <div class="catch">原料の生産・加工から、お届けまで<br>まごころ込めた取り組み</div>
     <section class="tracebility">
-        <div class="inner left gray-bg">
+        <div id="policy1" class="inner left gray-bg">
             <div class="image">
                 <img src="images/important_tracebility_img01.png" alt="">
             </div>
@@ -41,7 +41,7 @@
         <div class="figure">
             <img src="images/important_tracebility_img02.png" alt="">
         </div>
-        <div class="inner right">
+        <div id="policy2" class="inner right">
             <div class="image">
                 <img src="images/important_tracebility_img03.png" alt="">
             </div>
@@ -50,7 +50,7 @@
                 <p>ゑびすフードファクトリーで作られる商品は、全て化学調味料不使用の無添加商品です。また、商品の元となる原料は、その安全性や栄養・おいしさに折り紙つきの、地元の食材が中心。地元に根ざし活動してきたゑびすグループならではの地域との繋がりを地盤に、食べる人の健康を第一に考え、安心・安全を徹底した商品づくりを行なっています。</p>
             </div>
         </div>
-        <div class="inner left gray-bg">
+        <div id="policy3" class="inner left gray-bg">
             <div class="image">
                 <img src="images/important_tracebility_img04.png" alt="">
             </div>
@@ -64,7 +64,7 @@
                 <p>ファクトリー内は食中毒を引き起こす細菌などが入り込まないよう、ドライと呼ばれる常に乾いた状態の床面を採用。さらに、使用する機械は全て移動ができるようにすることで、清掃やメンテナンスがしやすい衛生面を保つ工夫を行なっています。また、室温は通年16〜18度を保ち、衛生管理に重要な、室温・湿度管理を徹底しています。</p>
             </div>
         </div>
-        <div class="inner right">
+        <div id="policy4" class="inner right">
             <div class="image">
                 <img src="images/important_tracebility_img05.png" alt="">
             </div>
