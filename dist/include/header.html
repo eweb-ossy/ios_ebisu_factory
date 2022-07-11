@@ -13,7 +13,7 @@
     <nav id="nav_menu" class="header-nav">
         <ul>
             <li>
-                <a class="info" href=about.html">ファクトリーについて</a>
+                <a class="info" href="about.html">ファクトリーについて</a>
                 <ul class="for-tb">
                     <li><a href="">大切にしていること</a></li>
                     <li><a href="">製造工場</a></li>
