@@ -44,7 +44,7 @@
             <p>商品づくり。</p>
         </div>
         <div class="slide-main-on-btn">
-            <a class="factory-btn" href="">商品情報はこちら</a>
+            <a class="factory-btn" href="products.html">商品情報はこちら</a>
         </div>
     </div>
     <div class="mv-slide-thumbnail">

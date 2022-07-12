@@ -22,7 +22,7 @@
     </div>
     <div class="breadcrumblist">
         <ul>
-            <li><a href="/">TOP</a></li>
+            <li><a href="https://ebisu-gp.jp/factory/">TOP</a></li>
             <li><a href="about.html">ファクトリーについて</a></li>
             <li><a href="important.html">大切にしていること</a></li>
         </ul>

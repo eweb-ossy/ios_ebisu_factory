@@ -7,7 +7,7 @@
         </div>
         <nav class="contact-nav">
             <div class="address">
-                <a href="/" class="logo">健康と、おいしさを、「つくる」<img src="images/logo_factory_column_color.svg" alt="EBISU FOOD FACTORY"></a>
+                <a href="https://ebisu-gp.jp/factory/" class="logo">健康と、おいしさを、「つくる」<img src="images/logo_factory_column_color.svg" alt="EBISU FOOD FACTORY"></a>
                 <h3>ゑびすフードファクトリー</h3>
                 <p>〒987-2233 宮城県栗原市築館照越永平1-1</p>
                 <p>TEL.0228-22-3110　FAX.0228-22-3301</p>
@@ -15,7 +15,7 @@
             <div class="menu">
                 <a href="about.html">ファクトリーについて</a>
                 <a href="">OEMについて</a>
-                <a href="">商品情報</a>
+                <a href="products.html">商品情報</a>
                 <a href="">キャンペーン</a>
                 <a href="">レシピ紹介</a>
                 <a href="">お客様の声</a>
