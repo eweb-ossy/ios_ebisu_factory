@@ -2,7 +2,7 @@
     <div class="inner">
         <div class="contact-area">
             <div class="title">お問い合わせ<span>Contact</span></div>
-            <a href="" class="tel">0228-22-3110<span>[受付時間／平日9:00〜18:00]</span></a>
+            <a href="tel:0228-22-3110" class="tel">0228-22-3110<span>[受付時間／平日9:00〜18:00]</span></a>
             <a href="" class="mail">お問い合わせフォーム</a>
         </div>
         <nav class="contact-nav">
@@ -18,7 +18,7 @@
                 <a href="products.html">商品情報</a>
                 <a href="">キャンペーン</a>
                 <a href="">レシピ紹介</a>
-                <a href="">お客様の声</a>
+                <a href="voice.html">お客様の声</a>
                 <a class="company" href="">企業情報</a>
                 <a class="recruit" href="">採用情報</a>
                 <a class="onlineshop" href="">オンラインショップ</a>
