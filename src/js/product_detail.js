@@ -1,4 +1,5 @@
 import $ from 'jquery';
+import 'slick-carousel';
 import 'rellax';
 import Rellax from 'rellax';
 
@@ -48,5 +49,15 @@ import Rellax from 'rellax';
         }
     }
     parallax();
+
+    // slide 
+    $('#product_slide').slick({
+        arrows: false,
+        dots: true,
+        customPaging: function(slider, i) {
+            var thumbSrc = $(slider.$slides[i]).find('img').attr('src');
+            return '<img src="' + thumbSrc + '">';
+        }
+    });
 
 })();

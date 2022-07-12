@@ -1,0 +1,168 @@
+@import "include/reset";
+@import "include/common";
+@import "include/header";
+@import "include/contact";
+@import "include/footer";
+@import "include/breadcrumblist";
+@import "../../node_modules/slick-carousel/slick/slick.scss";
+
+.catch {
+    width: 100vw;
+    padding: 15px 25px;
+    @include mq(tb) {
+        padding: 15px 0;
+    }
+    h2 {
+        background-color: $color_factory;
+        border-radius: 25px;
+        width: 100%;
+        text-align: center;
+        font-size: 33px;
+        font-weight: 600;
+        padding: 1.5em 0;
+        color: #fff;
+        @include mq(tb) {
+            font-size: clamp(12px, 4.87vw, 33px);
+            border-radius: 0;
+            padding: 1.5em 8vw;
+            text-align: left;
+        }
+        span {
+            display: block;
+            padding-top: 1em;
+            font-size: 21px;
+            @include mq(tb) {
+                font-size: clamp(16px, 3.1vw, 21px);
+            }
+        }
+    }
+}
+
+// section product detail 
+section.product_detail {
+    margin-bottom: 175px;
+    @include mq(tb) {
+        margin-bottom: 24vw;
+    }
+    .inner {
+        width: 1100px;
+        margin: 0 auto;
+        position: relative;
+        padding-left: 564px;
+        @include mq(tb) {
+            width: 100vw;
+            padding: 0 8vw;
+        }
+        .product-title {
+            .mark {
+                height: 60px;
+                padding: 15px 0;
+                &.new::after {
+                    content: 'NEW';
+                    font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
+                    font-size: 14px;
+                    background-color: $color_factory;
+                    padding: .5em 1em;
+                    font-weight: 600;
+                    border-radius: 8px;
+                    color: #fff;
+                    line-height: 1;
+                }
+            }
+            .title {
+                font-size: 26px;
+                font-weight: 600;
+                margin-bottom: 2em;
+            }
+        }
+        .product-img {
+            position: absolute;
+            top: 30px;
+            left: 45px;
+            @include mq(tb) {
+                position: initial;
+                margin-bottom: calc(24vw + 70px);
+            }
+            .main {
+                width: 420px;
+                height: 420px;
+                background-color: #fff;
+                @include mq(tb) {
+                    width: calc(100vw - 16vw);
+                    height: calc(100vw - 16vw);
+                }
+                .slide {
+                    display: flex !important;
+                    align-items: center;
+                    justify-content: center;
+                    img {
+                        @include mq(tb) {
+                            height: calc(100vw - 16vw);
+                        }
+                    }
+                }
+            }
+            .slick-dots {
+                display: flex;
+                justify-content: center;
+                margin-top: 50px;
+                list-style: none;
+                li {
+                    width: 70px;
+                    height: 70px;
+                    border: 1px solid #cbcbcb;
+                    margin: 10px;
+                    cursor: pointer;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    img {
+                        max-height: 66px;
+                    }
+                }
+            }
+        }
+        .product-text {
+            p {
+                font-size: 16px;
+                line-height: 1.8;
+            }
+            .standard {
+                margin-top: 3em;
+                border-top: 1px solid #bfbfbf;
+            }
+            .standard, .howto, .jancode, .data {
+                padding: 1em;
+                border-bottom: 1px solid #bfbfbf;
+                display: flex;
+                justify-content: space-between;
+                @include mq(tb) {
+                    display: block;
+                    padding: 1em .5em;
+                }
+                .title {
+                    font-weight: 600;
+                    padding-bottom: .6em;
+                }
+                p {
+                    width: 380px;
+                    @include mq(tb) {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+div.contact .inner {
+    &::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 200px;
+        background-color: #fff;
+        top: 0;
+        left: 0;
+    }
+}

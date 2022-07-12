@@ -1,5 +1,4 @@
 import $ from 'jquery';
-import 'slick-carousel';
 import 'rellax';
 import Rellax from 'rellax';
 
