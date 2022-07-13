@@ -1,0 +1,279 @@
+@import "include/reset";
+@import "include/common";
+@import "include/header";
+@import "include/contact";
+@import "include/footer";
+@import "include/sub_mv";
+@import "include/breadcrumblist";
+
+.info {
+    .catch {
+        text-align: center;
+        font-size: 35px;
+        font-weight: 600;
+        line-height: 1.8;
+        padding-top: 2em;
+        color: $color_factory;
+        @include mq(tb) {
+            font-size: 4.1695vw;
+        }
+    }
+}
+
+// section case 
+section.case {
+    margin: 130px 0;
+    @include mq(tb) {
+        margin: 16vw 0;
+    }
+    .inner {
+        width: 1100px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        @include mq(tb) {
+            width: 100vw;
+            padding: 0 8vw;
+            display: block;
+        }
+        .block {
+            width: 330px;
+            position: relative;
+            @include mq(tb) {
+                width: 69.33vw;
+                margin: 0 auto 4em;
+            }
+            &::after {
+                content: '';
+                position: absolute;
+                width: 260px;
+                height: 3px;
+                background-image: url('../images/line_dots_red.svg');
+                background-repeat: repeat-x;
+                bottom: 0;
+                left: 50%;
+                transform: translate(-50%, 0);
+                @include mq(tb) {
+                    width: 100%;
+                }
+            }
+            .image {
+                width: 330px;
+                height: 330px;
+                @include mq(tb) {
+                    width: 69.33vw;
+                    height: 69.33vw;
+                }
+                img {
+                    width: 100%;
+                    border: 3px solid $color_factory;
+                    border-radius: 50%;
+                }
+            }
+            .title {
+                text-align: center;
+                font-size: 30px;
+                font-weight: 600;
+                color: $color_factory;
+                line-height: 1.6;
+                padding: 1em 0;
+                @include mq(tb) {
+                    font-size: 4.431vw;
+                    br {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// section needs 
+section.needs {
+    .inner {
+        .catch {
+            text-align: center;
+            font-size: 35px;
+            font-weight: 600;
+            line-height: 1.8;
+            padding-top: 2em;
+            color: $color_factory;
+            @include mq(tb) {
+                font-size: 4.1695vw;
+            }
+        }
+        .needs-info {
+            width: 1260px;
+            height: 570px;
+            margin: 60px auto;
+            background-image: url('../images/about_oem_needs_img01.png');
+            background-repeat: no-repeat;
+            background-position: right;
+            background-size: 1183px;
+            position: relative;
+            @include mq(tb) {
+                width: 100vw;
+                padding: 0 8vw;
+                height: auto;
+                background-image: none;
+            }
+            .item {
+                position: absolute;
+                font-size: 30px;
+                font-weight: 600;
+                text-align: center;
+                @include mq(tb) {
+                    position: initial;
+                    font-size: 4.431vw;
+                    padding: 1em 1em 1em calc(60px + 2em);
+                    min-height: calc(60px + 2em);
+                    background-color: #f9e4e1;
+                    border-radius: 5px;
+                    margin-bottom: 8vw;
+                    text-align: left;
+                    display: block;
+                    br {
+                        display: none;
+                    }
+                }
+                &::after {
+                    content: '';
+                    position: absolute;
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                    @include mq(tb) {
+                        width: 60px;
+                        height: 60px;
+                    }
+                }
+                &:nth-of-type(1) {
+                    top: 122px;
+                    left: 242px;
+                    &::after {
+                        width: 108px;
+                        height: 97px;
+                        background-image: url('../images/about_oem_needs_img02.png');
+                        top: -140px;
+                        left: 2em;
+                        @include mq(tb) {
+                            width: 60px;
+                            height: 60px;
+                            top: 1em;
+                            left: 3em;
+                        }
+                    }
+                }
+                &:nth-of-type(2) {
+                    top: 412px;
+                    left: 172px;
+                    &::after {
+                        width: 85px;
+                        height: 85px;
+                        background-image: url('../images/about_oem_needs_img03.png');
+                        top: -120px;
+                        left: 1.5em;
+                        @include mq(tb) {
+                            width: 60px;
+                            height: 60px;
+                            top: calc(60px + 3em + 8vw);
+                            left: 3em;
+                        }
+                    }
+                }
+                &:nth-of-type(3) {
+                    top: 134px;
+                    left: 852px;
+                    &::after {
+                        width: 164px;
+                        height: 164px;
+                        background-image: url('../images/about_oem_needs_img04.png');
+                        top: -164px;
+                        left: 2em;
+                        @include mq(tb) {
+                            width: 60px;
+                            height: 60px;
+                            top: calc(120px + 5em + 16vw);
+                            left: 3em;
+                        }
+                    }
+                }
+            }
+        }
+        p {
+            width: 850px;
+            margin: 0 auto;
+            font-size: 16px;
+            line-height: 1.8;
+            @include mq(tb) {
+                width: 100vw;
+                padding: 0 8vw;
+            }
+        }
+        .to-contact {
+            text-align: center;
+            margin: 100px 0 200px;
+            @include mq(tb) {
+                margin: 24vw 0 48vw;
+            }
+            p {
+                font-size: 16px;
+                font-weight: 600;
+                position: relative;
+                padding: 2em 0;
+                width: 500px;
+                margin-bottom: 50px;
+                color: $color_factory;
+                @include mq(tb) {
+                    width: 84vw;
+                }
+                &::before {
+                    content: '';
+                    position: absolute;
+                    width: 63px;
+                    height: 3px;
+                    background-image: url('../images/line_dots_red.svg');
+                    background-repeat: repeat-x;
+                    transform: rotate(45deg);
+                    top: 50px;
+                    left: 0;
+                }
+                &::after {
+                    content: '';
+                    position: absolute;
+                    width: 63px;
+                    height: 3px;
+                    background-image: url('../images/line_dots_red.svg');
+                    background-repeat: repeat-x;
+                    transform: rotate(315deg);
+                    top: 50px;
+                    right: 0;
+                }
+            }
+            .factory-btn {
+                margin: 0 auto;
+                width: 500px;
+                background-color: $color_factory;
+                color: #fff;
+                @include mq(tb) {
+                    width: 84vw;
+                }
+                &:hover {
+                    color: $color_factory;
+                    background-color: #fff;
+                }
+            }
+        }
+    }
+}
+
+div.contact .inner {
+    &::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 200px;
+        background-color: #fff;
+        top: 0;
+        left: 0;
+    }
+}

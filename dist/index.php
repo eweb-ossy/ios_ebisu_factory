@@ -234,7 +234,7 @@
     <section class="link">
         <div class="inner">
             <a href="">企業情報<span>COMPANY</span></a>
-            <a href="">OEMについて<span>ABOUT OEM</span></a>
+            <a href="about_oem.html">OEMについて<span>ABOUT OEM</span></a>
         </div>
     </section>
 

@@ -36,7 +36,7 @@
         <div class="inner">
             <div class="text">
                 <p>自社ファクトリー完成に伴い、これまで外部で製造していた商品を自社で製造できるようになりました。また、OEMとして他社ブランドの製品製造や、ご提案も行なっています。少ロットでの製造や、食材の産地指定・商品開発に関するご相談もお気軽にお寄せください。</p>
-                <a href="" class="factory-btn">OEMについて</a>
+                <a href="about_oem.html" class="factory-btn">OEMについて</a>
             </div>
             <div class="img">
                 <img src="images/about_factory_product_photo.png" loading="lazy" alt="">

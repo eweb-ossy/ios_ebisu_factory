@@ -1,6 +1,4 @@
 import $ from 'jquery';
-import 'rellax';
-import Rellax from 'rellax';
 
 (function() {
 
@@ -33,20 +31,6 @@ import Rellax from 'rellax';
 
     $(window).on('resize', function() {
         windowWidth = getWindowWidth();
-        parallax();
     });
-    
-
-    // parallax 
-    function parallax() {
-        let rellax = new Rellax('.parallax', {
-            speed: 1
-        });
-        if (windowWidth < 1440) {
-            rellax.refresh();
-            rellax.destroy();
-        }
-    }
-    parallax();
 
 })();

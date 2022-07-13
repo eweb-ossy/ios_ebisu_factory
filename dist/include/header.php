@@ -19,7 +19,7 @@
                     <li><a href="about_factory.html">製造工場</a></li>
                 </ul>
             </li>
-            <li><a href="">OEMについて</a></li>
+            <li><a href="about_oem.html">OEMについて</a></li>
             <li><a href="products.html">商品情報</a></li>
             <li><a href="">キャンペーン</a></li>
             <li><a href="">レシピ紹介</a></li>
