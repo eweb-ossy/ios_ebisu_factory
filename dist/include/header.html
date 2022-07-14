@@ -26,7 +26,7 @@
             <li><a href="voice.html">お客様の声</a></li>
             <li class="company"><a href="">企業情報</a></li>
             <li class="recruit"><a href="">採用情報</a></li>
-            <li class="contact"><a href="">お問い合わせ</a></li>
+            <li class="contact"><a href="contact.html">お問い合わせ</a></li>
             <li class="onlineshop"><a href="">オンラインショップ</a></li>
         </ul>
     </nav>
