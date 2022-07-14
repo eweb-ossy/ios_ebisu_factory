@@ -37,7 +37,7 @@
                 </div>
             </nav>
             <div class="btn">
-                <a href="news.html" class="factory-btn">キャンペーン一覧に戻る</a>
+                <a href="campaign.html" class="factory-btn">キャンペーン一覧に戻る</a>
             </div>
         </div>
     </section>
