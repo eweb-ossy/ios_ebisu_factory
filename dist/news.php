@@ -21,63 +21,63 @@
     </div>
     <section class="news">
         <div class="inner">
-            <a href="" class="news-content">
+            <a href="news_detail.html" class="news-content">
                 <div class="date">0000.00.00</div>
                 <div class="body">新着情報が入ります。新着情報が入ります。新着情報が入ります。新着情報が入ります。</div>
             </a>
-            <a href="" class="news-content">
+            <a href="news_detail.html" class="news-content">
                 <div class="date">0000.00.00</div>
                 <div class="body">新着情報が入ります。新着情報が入ります。新着情報が入ります。新着情報が入ります。</div>
             </a>
-            <a href="" class="news-content">
+            <a href="news_detail.html" class="news-content">
                 <div class="date">0000.00.00</div>
                 <div class="body">新着情報が入ります。新着情報が入ります。新着情報が入ります。新着情報が入ります。</div>
             </a>
-            <a href="" class="news-content">
+            <a href="news_detail.html" class="news-content">
                 <div class="date">0000.00.00</div>
                 <div class="body">新着情報が入ります。新着情報が入ります。新着情報が入ります。新着情報が入ります。</div>
             </a>
-            <a href="" class="news-content">
+            <a href="news_detail.html" class="news-content">
                 <div class="date">0000.00.00</div>
                 <div class="body">新着情報が入ります。新着情報が入ります。新着情報が入ります。新着情報が入ります。</div>
             </a>
-            <a href="" class="news-content">
+            <a href="news_detail.html" class="news-content">
                 <div class="date">0000.00.00</div>
                 <div class="body">新着情報が入ります。新着情報が入ります。新着情報が入ります。新着情報が入ります。</div>
             </a>
-            <a href="" class="news-content">
+            <a href="news_detail.html" class="news-content">
                 <div class="date">0000.00.00</div>
                 <div class="body">新着情報が入ります。新着情報が入ります。新着情報が入ります。新着情報が入ります。</div>
             </a>
-            <a href="" class="news-content">
+            <a href="news_detail.html" class="news-content">
                 <div class="date">0000.00.00</div>
                 <div class="body">新着情報が入ります。新着情報が入ります。新着情報が入ります。新着情報が入ります。</div>
             </a>
-            <a href="" class="news-content">
+            <a href="news_detail.html" class="news-content">
                 <div class="date">0000.00.00</div>
                 <div class="body">新着情報が入ります。新着情報が入ります。新着情報が入ります。新着情報が入ります。</div>
             </a>
-            <a href="" class="news-content">
+            <a href="news_detail.html" class="news-content">
                 <div class="date">0000.00.00</div>
                 <div class="body">新着情報が入ります。新着情報が入ります。新着情報が入ります。新着情報が入ります。</div>
             </a>
-            <a href="" class="news-content">
+            <a href="news_detail.html" class="news-content">
                 <div class="date">0000.00.00</div>
                 <div class="body">新着情報が入ります。新着情報が入ります。新着情報が入ります。新着情報が入ります。</div>
             </a>
-            <a href="" class="news-content">
+            <a href="news_detail.html" class="news-content">
                 <div class="date">0000.00.00</div>
                 <div class="body">新着情報が入ります。新着情報が入ります。新着情報が入ります。新着情報が入ります。</div>
             </a>
-            <a href="" class="news-content">
+            <a href="news_detail.html" class="news-content">
                 <div class="date">0000.00.00</div>
                 <div class="body">新着情報が入ります。新着情報が入ります。新着情報が入ります。新着情報が入ります。</div>
             </a>
-            <a href="" class="news-content">
+            <a href="news_detail.html" class="news-content">
                 <div class="date">0000.00.00</div>
                 <div class="body">新着情報が入ります。新着情報が入ります。新着情報が入ります。新着情報が入ります。</div>
             </a>
-            <a href="" class="news-content">
+            <a href="news_detail.html" class="news-content">
                 <div class="date">0000.00.00</div>
                 <div class="body">新着情報が入ります。新着情報が入ります。新着情報が入ります。新着情報が入ります。</div>
             </a>

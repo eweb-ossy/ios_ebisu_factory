@@ -82,15 +82,15 @@
                     <div class="title news">最新情報</div>
                     <a href="news.html">一覧</a>
                 </div>
-                <a href="" class="info-content">
+                <a href="news_detail.html" class="info-content">
                     <div class="date">0000.00.00</div>
                     <div class="body">新着情報が入ります。新着情報が入ります。新着情報が入ります。新着情報が入ります。</div>
                 </a>
-                <a href="" class="info-content">
+                <a href="news_detail.html" class="info-content">
                     <div class="date">0000.00.00</div>
                     <div class="body">新着情報が入ります。新着情報が入ります。新着情報が入ります。新着情報が入ります。</div>
                 </a>
-                <a href="" class="info-content">
+                <a href="news_detail.html" class="info-content">
                     <div class="date">0000.00.00</div>
                     <div class="body">新着情報が入ります。新着情報が入ります。新着情報が入ります。新着情報が入ります。</div>
                 </a>
