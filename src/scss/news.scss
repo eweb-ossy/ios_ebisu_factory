@@ -1,0 +1,169 @@
+@import "include/reset";
+@import "include/common";
+@import "include/header";
+@import "include/contact";
+@import "include/footer";
+@import "include/breadcrumblist";
+
+.catch {
+    width: 100vw;
+    padding: 15px 25px;
+    @include mq(tb) {
+        padding: 15px 0;
+    }
+    h2 {
+        background-color: $color_factory;
+        border-radius: 25px;
+        width: 100%;
+        text-align: center;
+        font-size: 33px;
+        font-weight: 600;
+        padding: 1.5em 0;
+        color: #fff;
+        @include mq(tb) {
+            font-size: clamp(12px, 4.87vw, 33px);
+            border-radius: 0;
+            padding: 1.5em 8vw;
+            text-align: left;
+        }
+        span {
+            display: block;
+            padding-top: 1em;
+            font-size: 21px;
+            @include mq(tb) {
+                font-size: clamp(16px, 3.1vw, 21px);
+            }
+        }
+    }
+}
+
+// section news 
+section.news {
+    .inner {
+        width: 1100px;
+        margin: 50px auto 300px;
+        @include mq(tb) {
+            width: 100vw;
+            margin: 18vw 0 36vw;
+            padding: 0 8vw;
+        }
+        .news-content {
+            width: 100%;
+            display: block;
+            padding: 20px 125px 20px 30px;
+            border-bottom: 1px solid #e3e3e3;
+            position: relative;
+            transition: 1s;
+            @include mq(tb) {
+                padding: 8vw 25px 8vw 4vw;
+                &:first-child {
+                    border-top: 1px solid #e3e3e3;
+                }
+            }
+            &:hover {
+                background-color: #f9f9f9;
+            }
+            &::after {
+                position: absolute;
+                content: '';
+                width: 10px;
+                height: 18px;
+                background-image: url('../images/icon_arrow2.svg');
+                background-repeat: no-repeat;
+                background-size: contain;
+                top: 50%;
+                right: 15px;
+                transform: translate(0, -50%);
+                @include mq(tb) {
+                    right: 5px;
+                }
+            }
+            .date {
+                font-size: 16px;
+                line-height: 1;
+                color: $color_factory;
+                margin-bottom: .6em;
+            }
+            .body {
+                font-size: 15px;
+                line-height: 1.5;
+            }
+        }
+        .pagination {
+            width: 500px;
+            margin: 120px auto;
+            @include mq(tb) {
+                width: 100%;
+                margin: 16vw auto;
+            }
+            .nav-links ul {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                li {
+                    width: 50px;
+                    height: 50px;
+                    margin: 0 10px;
+                    @include mq(tb) {
+                        width: 11.2vw;
+                        height: 11.2vw;
+                        margin: 0;
+                    }
+                    a {
+                        width: 50px;
+                        height: 50px;
+                        display: block;
+                        @include mq(tb) {
+                            width: 11.2vw;
+                            height: 11.2vw;
+                        }
+                    }
+                    .page-numbers {
+                        border-radius: 50%;
+                        background-color: #fbe5e1;
+                        color: $color_factory;
+                        font-size: 19px;
+                        font-weight: 600;
+                        text-align: center;
+                        padding-top: 12px;
+                        @include mq(tb) {
+                            font-size: 2.8vw;
+                            padding-top: 0;
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                        }
+                        &.active {
+                            background-color: $color_factory;
+                            color: #fff;
+                        }
+                    }
+                    .prev, .next {
+                        background-image: url('../images/icon_arrow2.svg');
+                        background-repeat: no-repeat;
+                        background-size: 11px;
+                        background-position: center;
+                        @include mq(tb) {
+                            background-size: 2.4vw;
+                        }
+                    }
+                    .prev {
+                        transform: rotate(180deg);
+                    }
+                }
+            }
+        }
+    }
+}
+
+div.contact .inner {
+    &::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 200px;
+        background-color: #fff;
+        top: 0;
+        left: 0;
+    }
+}

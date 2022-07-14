@@ -80,7 +80,7 @@
             <div class="block">
                 <div class="info-header">
                     <div class="title news">最新情報</div>
-                    <a href="">一覧</a>
+                    <a href="news.html">一覧</a>
                 </div>
                 <a href="" class="info-content">
                     <div class="date">0000.00.00</div>

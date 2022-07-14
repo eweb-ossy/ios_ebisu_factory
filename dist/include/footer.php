@@ -18,7 +18,7 @@
             <div class="block">
                 <div class="hover">
                     <div class="logo-text">健康と、おいしさを、「つくる」</div>
-                    <a href="" class="logo"><img src="images/logo_factory_column_color.svg" loading="lazy" alt="EBISU FOOD FACTORY"></a>
+                    <a href="https://ebisu-gp.jp/factory/" class="logo"><img src="images/logo_factory_column_color.svg" loading="lazy" alt="EBISU FOOD FACTORY"></a>
                 </div>
                 <div class="title">ゑびすフードファクトリー</div>
                 <p>宮城県栗原の地元食材に<br>こだわった食品製造事業部</p>
