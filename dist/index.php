@@ -122,9 +122,9 @@
             <p>ゑびすキッチンでは、関村牧場の「漢方和牛」<br class="for-sp">「漢方三元豚」を使用した商品を製造・販売しています。</p>
             <div class="logo">14種類の漢方飼料で育った<img src="images/logo_brand_column.svg" loading="lazy" alt="漢方和牛＆漢方三元豚 ダイチ"></div>
             <div class="row">
-                <a href="" class="block">新商品</a>
-                <a href="" class="block">ハム・ソーセージ</a>
-                <a href="" class="block">調理加工食品</a>
+                <a href="products.html" class="block">新商品</a>
+                <a href="products.html" class="block">ハム・ソーセージ</a>
+                <a href="products.html" class="block">調理加工食品</a>
             </div>
             <a href="" class="factory-btn">オンラインショップ　EBISU KITCHENはこちら</a>
         </div>
@@ -132,7 +132,7 @@
 
     <section class="recipe">
         <h2>カンタン！おいしい！レシピ</h2>
-        <a href="" class="factory-btn">レシピの詳細はこちら</a>
+        <a href="recipe.html" class="factory-btn">レシピの詳細はこちら</a>
     </section>
 
     <section class="policy">

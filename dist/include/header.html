@@ -22,7 +22,7 @@
             <li><a href="about_oem.html">OEMについて</a></li>
             <li><a href="products.html">商品情報</a></li>
             <li><a href="">キャンペーン</a></li>
-            <li><a href="">レシピ紹介</a></li>
+            <li><a href="recipe.html">レシピ紹介</a></li>
             <li><a href="voice.html">お客様の声</a></li>
             <li class="company"><a href="">企業情報</a></li>
             <li class="recruit"><a href="">採用情報</a></li>
