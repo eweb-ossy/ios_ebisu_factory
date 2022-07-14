@@ -30,10 +30,10 @@
             <div class="product-img">
                 <div id="product_slide" class="main">
                     <div class="slide">
-                        <img src="images/product_detail_photo01.jpg" alt="">
+                        <img src="images/product_detail_photo01.jpg" loading="lazy" alt="">
                     </div>
                     <div class="slide">
-                        <img src="images/product_detail_photo02.jpg" alt="">
+                        <img src="images/product_detail_photo02.jpg" loading="lazy" alt="">
                     </div>
                 </div>
             </div>

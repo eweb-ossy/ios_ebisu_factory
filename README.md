@@ -10,3 +10,7 @@
 [OEMについて](https://eweb-ossy.github.io/ios_ebisu_factory/dist/about_oem.html)  
 [レシピ紹介](https://eweb-ossy.github.io/ios_ebisu_factory/dist/recipe.html)  
 [お問い合わせ](https://eweb-ossy.github.io/ios_ebisu_factory/dist/contact.html)  
+[お知らせ](https://eweb-ossy.github.io/ios_ebisu_factory/dist/news.html)  
+[お知らせ 詳細](https://eweb-ossy.github.io/ios_ebisu_factory/dist/news_detail.html)  
+[キャンペーン](https://eweb-ossy.github.io/ios_ebisu_factory/dist/campaign.html)  
+[キャンペーン 詳細](https://eweb-ossy.github.io/ios_ebisu_factory/dist/campaign_detail.html)  

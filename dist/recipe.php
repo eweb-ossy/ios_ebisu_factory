@@ -38,10 +38,10 @@
                     <div class="close-btn"></div>
                     <div class="image">
                         <div class="slide">
-                            <img src="images/recipe_photo01.jpg" alt="">
+                            <img src="images/recipe_photo01.jpg" loading="lazy" alt="">
                         </div>
                         <div class="slide">
-                            <img src="images/recipe_photo01.jpg" alt="">
+                            <img src="images/recipe_photo01.jpg" loading="lazy" alt="">
                         </div>
                     </div>
                     <div class="text">
@@ -66,10 +66,10 @@
                     <div class="close-btn"></div>
                     <div class="image">
                         <div class="slide">
-                            <img src="images/recipe_photo02.jpg" alt="">
+                            <img src="images/recipe_photo02.jpg" loading="lazy" alt="">
                         </div>
                         <div class="slide">
-                            <img src="images/recipe_photo02.jpg" alt="">
+                            <img src="images/recipe_photo02.jpg" loading="lazy" alt="">
                         </div>
                     </div>
                     <div class="text">
@@ -94,10 +94,10 @@
                     <div class="close-btn"></div>
                     <div class="image">
                         <div class="slide">
-                            <img src="images/recipe_photo03.jpg" alt="">
+                            <img src="images/recipe_photo03.jpg" loading="lazy" alt="">
                         </div>
                         <div class="slide">
-                            <img src="images/recipe_photo03.jpg" alt="">
+                            <img src="images/recipe_photo03.jpg" loading="lazy" alt="">
                         </div>
                     </div>
                     <div class="text">
@@ -122,10 +122,10 @@
                     <div class="close-btn"></div>
                     <div class="image">
                         <div class="slide">
-                            <img src="images/recipe_photo01.jpg" alt="">
+                            <img src="images/recipe_photo01.jpg" loading="lazy" alt="">
                         </div>
                         <div class="slide">
-                            <img src="images/recipe_photo01.jpg" alt="">
+                            <img src="images/recipe_photo01.jpg" loading="lazy" alt="">
                         </div>
                     </div>
                     <div class="text">
@@ -150,10 +150,10 @@
                     <div class="close-btn"></div>
                     <div class="image">
                         <div class="slide">
-                            <img src="images/recipe_photo02.jpg" alt="">
+                            <img src="images/recipe_photo02.jpg" loading="lazy" alt="">
                         </div>
                         <div class="slide">
-                            <img src="images/recipe_photo02.jpg" alt="">
+                            <img src="images/recipe_photo02.jpg" loading="lazy" alt="">
                         </div>
                     </div>
                     <div class="text">
@@ -178,10 +178,10 @@
                     <div class="close-btn"></div>
                     <div class="image">
                         <div class="slide">
-                            <img src="images/recipe_photo03.jpg" alt="">
+                            <img src="images/recipe_photo03.jpg" loading="lazy" alt="">
                         </div>
                         <div class="slide">
-                            <img src="images/recipe_photo03.jpg" alt="">
+                            <img src="images/recipe_photo03.jpg" loading="lazy" alt="">
                         </div>
                     </div>
                     <div class="text">
@@ -206,10 +206,10 @@
                     <div class="close-btn"></div>
                     <div class="image">
                         <div class="slide">
-                            <img src="images/recipe_photo01.jpg" alt="">
+                            <img src="images/recipe_photo01.jpg" loading="lazy" alt="">
                         </div>
                         <div class="slide">
-                            <img src="images/recipe_photo01.jpg" alt="">
+                            <img src="images/recipe_photo01.jpg" loading="lazy" alt="">
                         </div>
                     </div>
                     <div class="text">
@@ -234,10 +234,10 @@
                     <div class="close-btn"></div>
                     <div class="image">
                         <div class="slide">
-                            <img src="images/recipe_photo02.jpg" alt="">
+                            <img src="images/recipe_photo02.jpg" loading="lazy" alt="">
                         </div>
                         <div class="slide">
-                            <img src="images/recipe_photo02.jpg" alt="">
+                            <img src="images/recipe_photo02.jpg" loading="lazy" alt="">
                         </div>
                     </div>
                     <div class="text">
@@ -262,10 +262,10 @@
                     <div class="close-btn"></div>
                     <div class="image">
                         <div class="slide">
-                            <img src="images/recipe_photo03.jpg" alt="">
+                            <img src="images/recipe_photo03.jpg" loading="lazy" alt="">
                         </div>
                         <div class="slide">
-                            <img src="images/recipe_photo03.jpg" alt="">
+                            <img src="images/recipe_photo03.jpg" loading="lazy" alt="">
                         </div>
                     </div>
                     <div class="text">
@@ -290,10 +290,10 @@
                     <div class="close-btn"></div>
                     <div class="image">
                         <div class="slide">
-                            <img src="images/recipe_photo01.jpg" alt="">
+                            <img src="images/recipe_photo01.jpg" loading="lazy" alt="">
                         </div>
                         <div class="slide">
-                            <img src="images/recipe_photo01.jpg" alt="">
+                            <img src="images/recipe_photo01.jpg" loading="lazy" alt="">
                         </div>
                     </div>
                     <div class="text">

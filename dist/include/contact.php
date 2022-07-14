@@ -16,7 +16,7 @@
                 <a href="about.html">ファクトリーについて</a>
                 <a href="about_oem.html">OEMについて</a>
                 <a href="products.html">商品情報</a>
-                <a href="">キャンペーン</a>
+                <a href="campaign.html">キャンペーン</a>
                 <a href="recipe.html">レシピ紹介</a>
                 <a href="voice.html">お客様の声</a>
                 <a class="company" href="">企業情報</a>

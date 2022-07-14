@@ -98,17 +98,17 @@
             <div class="block">
                 <div class="info-header">
                     <div class="title campaign">キャンペーン</div>
-                    <a href="">一覧</a>
+                    <a href="campaign.html">一覧</a>
                 </div>
-                <a href="" class="info-content">
+                <a href="campaign_detail.html" class="info-content">
                     <div class="date">0000.00.00</div>
                     <div class="body">新着情報が入ります。新着情報が入ります。新着情報が入ります。新着情報が入ります。</div>
                 </a>
-                <a href="" class="info-content">
+                <a href="campaign_detail.html" class="info-content">
                     <div class="date">0000.00.00</div>
                     <div class="body">新着情報が入ります。新着情報が入ります。新着情報が入ります。新着情報が入ります。</div>
                 </a>
-                <a href="" class="info-content">
+                <a href="campaign_detail.html" class="info-content">
                     <div class="date">0000.00.00</div>
                     <div class="body">新着情報が入ります。新着情報が入ります。新着情報が入ります。新着情報が入ります。</div>
                 </a>
