@@ -27,7 +27,7 @@
         </ul>
     </div>
     <div class="info">
-        <div class="catch">キャッチコピーキャッチコピー<br>キャッチコピーキャッチコピー</div>
+        <div class="catch">栗原のご馳走を手軽にenjoy！<br>おうちで簡単アレンジレシピ</div>
     </div>
 
     <section class="recipe">
