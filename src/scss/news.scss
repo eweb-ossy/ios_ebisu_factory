@@ -126,6 +126,11 @@ section.news {
                         font-weight: 600;
                         text-align: center;
                         padding-top: 12px;
+                        transition: 1s;
+                        &:hover {
+                            background-color: $color_factory;
+                            color: #fff;
+                        }
                         @include mq(tb) {
                             font-size: 2.8vw;
                             padding-top: 0;

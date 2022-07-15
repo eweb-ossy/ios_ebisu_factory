@@ -309,6 +309,8 @@ section.howto {
                 background-image: url('../images/about_factory_howto_img03.png');
                 top: 115px;
                 left: 75px;
+                background-size: 180px;
+                background-position: center;
                 @include mq(tb) {
                     top: auto;
                     right: auto;

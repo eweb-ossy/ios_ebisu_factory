@@ -39,6 +39,10 @@
 
 // section news-detail 
 section.campaign-detail {
+    padding: 70px 0;
+    @include mq(tb) {
+        padding: 24vw 0;
+    }
     .inner {
         width: 1100px;
         margin: 0 auto;

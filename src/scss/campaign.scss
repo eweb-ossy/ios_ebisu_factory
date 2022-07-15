@@ -60,6 +60,11 @@ section.campaign {
             width: 257px;
             height: calc(257px * 1.338);
             position: relative;
+            transition: 1s;
+            &:hover {
+                opacity: .5;
+                color: $color_factory;
+            }
             @include mq(tb) {
                 width: calc((100vw - 16vw) / 2 - 4vw);
                 height: calc(((100vw - 16vw) / 2 - 4vw) * 1.338);
@@ -145,6 +150,11 @@ section.campaign {
                     font-weight: 600;
                     text-align: center;
                     padding-top: 12px;
+                    transition: 1s;
+                    &:hover {
+                        background-color: $color_factory;
+                        color: #fff;
+                    }
                     @include mq(tb) {
                         font-size: 2.8vw;
                         padding-top: 0;
