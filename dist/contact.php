@@ -171,7 +171,7 @@
             </form>
         </div>
     </section>
-    <?php require('include/contact.php'); ?>
+    <?php require('include/footer_nav.php'); ?>
     <?php require('include/footer.php'); ?>
     <script src="js/contact.js?<?= time() ?>"></script>
 </body>

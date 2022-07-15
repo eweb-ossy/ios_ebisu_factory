@@ -84,7 +84,7 @@
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3112.2324588302868!2d141.01888531643831!3d38.73542756407818!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f891886d3492ff1%3A0x6ec48bf7512219c7!2z5rqA44Gm44KT!5e0!3m2!1sja!2sjp!4v1657500306131!5m2!1sja!2sjp" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </section>
-    <?php require('include/contact.php'); ?>
+    <?php require('include/footer_nav.php'); ?>
     <?php require('include/footer.php'); ?>
     <script src="js/about.js?<?= time() ?>"></script>
 </body>

@@ -1,0 +1,144 @@
+div.footer-nav {
+    width: 100vw;
+    height: 620px;
+    position: relative;
+    background-color: #eaeaea;
+    @include mq(tb) {
+        height: auto;
+    }
+    .inner {
+        width: 1100px;
+        margin: 0 auto;
+        padding-top: calc( (89vw * 0.3 / 2) + 70px );
+        display: flex;
+        @include mq(tb) {
+            width: 100%;
+            padding-top: calc( (61.58vw / 2) + 24vw );
+            padding-bottom: 16vw;
+            display: block;
+        }
+        .address {
+            @include mq(tb) {
+                text-align: center;
+            }
+            .logo {
+                width: 300px;
+                display: block;
+                font-size: 15px;
+                font-weight: 600;
+                color: $color_factory;
+                text-align: center;
+                @include mq(tb) {
+                    margin: 0 auto;
+                }
+                img {
+                    padding-top: .5em;
+                    display: block;
+                    width: 201px;
+                    margin: 0 auto;
+                }
+            }
+            h3 {
+                width: 100%;
+                text-align: left;
+                font-size: 17px;
+                margin: 2em 0 1em;
+                @include mq(tb) {
+                    text-align: center;
+                }
+                img {
+                    width: 188px;
+                    fill: #000;
+                }
+            }
+            p {
+                font-size: 16px;
+                margin-top: .8em;
+            }
+        }
+        .menu {
+            @include mq(tb) {
+                display: none;
+            }
+            margin-left: 190px;
+            ul {
+                width: calc(1100px - 300px - 190px);
+                position: relative;
+                list-style-type: none;
+                li {
+                    a {
+                        font-size: 16px;
+                        font-weight: 600;
+                        transition: 1s;
+                        &:hover {
+                            opacity: .5;
+                        }
+                    }
+                    margin-bottom: 1em;
+                    &:nth-of-type(7),  &:nth-of-type(8) {
+                        position: absolute;
+                        top: 0;
+                        left: 350px;
+                        padding-right: .5em;
+                        &::after {
+                            content: '';
+                            position: absolute;
+                            width: 15px;
+                            height: 14px;
+                            background-color: $color_factory;
+                            top: 0;
+                            right: -1em;
+                            mask-image: url('../images/icon_outlink.svg');
+                            mask-repeat: no-repeat;
+                            mask-size: contain;
+                        }
+                    }
+                    &:nth-of-type(7) {
+                        top: 0;
+                    }
+                    &:nth-of-type(8) {
+                        top: 2em;
+                    }
+                    &:nth-of-type(9) {
+                        position: absolute;
+                        top: 180px;
+                        left: 220px;
+                        a {
+                            color: #fff;
+                            background-color: $color_factory;
+                            padding: 1.8em 5em 1.8em 9em;
+                            border-radius: 37px;
+                            position: relative;
+                            &::before {
+                                content: '';
+                                position: absolute;
+                                width: 91px;
+                                height: 37px;
+                                background-color: #fff;
+                                mask-image: url('../images/logo_shop_kitchen.svg');
+                                mask-repeat: no-repeat;
+                                mask-size: contain;
+                                top: 50%;
+                                left: 37px;
+                                transform: translate(0, -50%);
+                            }
+                            &::after {
+                                content: '';
+                                position: absolute;
+                                width: 23px;
+                                height: 23px;
+                                background-color: #fff;
+                                mask-image: url('../images/icon_shopcart.svg');
+                                mask-repeat: no-repeat;
+                                mask-size: contain;
+                                top: 50%;
+                                right: 37px;
+                                transform: translate(0, -50%);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
