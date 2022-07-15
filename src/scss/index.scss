@@ -6,6 +6,9 @@
 @import "include/footer";
 @import "../../node_modules/slick-carousel/slick/slick.scss";
 
+body {
+    background-color: #eaeaea;
+}
 .mv {
     width: 100vw;
     height: 680px;
@@ -494,7 +497,7 @@
         }
         .row {
             display: flex;
-            margin-bottom: 130px;
+            padding-bottom: 130px;
             @include mq(tb) {
                 flex-direction: column;
             }

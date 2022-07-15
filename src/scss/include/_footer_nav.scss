@@ -3,7 +3,9 @@ div.footer-nav {
     height: 620px;
     position: relative;
     background-color: #eaeaea;
+    margin-top: calc( 89vw * 0.3 / 2);
     @include mq(tb) {
+        margin-top: alc( 61.58vw / 2 );
         height: auto;
     }
     .inner {

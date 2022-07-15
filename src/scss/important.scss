@@ -146,15 +146,3 @@ section.tracebility {
         }
     }
 }
-
-div.contact .inner {
-    &::before {
-        content: '';
-        position: absolute;
-        width: 100%;
-        height: 200px;
-        background-color: #fff;
-        top: 0;
-        left: 0;
-    }
-}
