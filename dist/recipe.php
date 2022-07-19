@@ -7,6 +7,11 @@
     <meta name="robots" content="noindex">
     <title>レシピ紹介｜ゑびすフードファクトリー</title>
     <link rel="stylesheet" href="css/recipe.css?<?= time() ?>">
+    <style>
+        .recipe .inner p {
+            margin-bottom: 100px;
+        }
+    </style>
 </head>
 <body>
     <?php require('include/header.php'); ?>
@@ -32,8 +37,10 @@
 
     <section class="recipe">
         <div class="inner">
+
+            <p>ただいま準備中です。随時更新いたします。</p>
             
-            <div class="recipe-block">
+            <!-- <div class="recipe-block">
                 <div class="warp">
                     <div class="close-btn"></div>
                     <div class="image">
@@ -312,7 +319,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
         </div>
     </section>

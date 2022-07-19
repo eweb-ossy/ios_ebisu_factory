@@ -7,6 +7,11 @@
     <meta name="robots" content="noindex">
     <title>お客様の声｜ゑびすフードファクトリー</title>
     <link rel="stylesheet" href="css/voice.css?<?= time() ?>">
+    <style>
+        .voice .inner p {
+            margin-bottom: 100px;
+        }
+    </style>
 </head>
 <body>
     <?php require('include/header.php'); ?>
@@ -31,7 +36,10 @@
     </div>
     <section class="voice">
         <div class="inner">
-            <div class="voice-box yellow">
+
+            <p>ただいま準備中です。随時更新いたします。</p>
+
+            <!-- <div class="voice-box yellow">
                 <div class="title">食卓の主役として<br>重宝しています。<br>小学生の子供の大好物です！</div>
                 <div class="name">30代 女性</div>
                 <div class="body">お客様の声が入ります。お客様の声が入ります。お客様の声が入ります。お客様の声が入ります。お客様の声が入ります。お客様の声が入ります。お客様の声が入ります。お客様の声が入ります。お客様の声が入ります。</div>
@@ -75,7 +83,7 @@
                 <div class="title">食卓の主役として<br>重宝しています。<br>小学生の子供の大好物です！</div>
                 <div class="name">30代 女性</div>
                 <div class="body">お客様の声が入ります。お客様の声が入ります。お客様の声が入ります。お客様の声が入ります。お客様の声が入ります。お客様の声が入ります。お客様の声が入ります。お客様の声が入ります。お客様の声が入ります。</div>
-            </div>
+            </div> -->
         </div>
     </section>
     <?php require('include/footer_nav.php'); ?>

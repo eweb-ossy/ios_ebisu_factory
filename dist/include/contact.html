@@ -2,15 +2,15 @@
     <div class="inner">
         <div class="contact-area">
             <div class="title">お問い合わせ<span>Contact</span></div>
-            <a href="tel:0228-22-3110" class="tel">0228-22-3110<span>[受付時間／平日9:00〜18:00]</span></a>
+            <a href="tel:0228-24-7015" class="tel">0228-24-7015<span>[受付時間／平日9:00〜18:00]</span></a>
             <a href="contact.html" class="mail">お問い合わせフォーム</a>
         </div>
         <nav class="contact-nav">
             <div class="address">
                 <a href="https://ebisu-gp.jp/factory/" class="logo">健康と、おいしさを、「つくる」<img src="images/logo_factory_column_color.svg" alt="EBISU FOOD FACTORY"></a>
                 <h3>ゑびすフードファクトリー</h3>
-                <p>〒987-2233 宮城県栗原市築館照越永平1-1</p>
-                <p>TEL.0228-22-3110　FAX.0228-22-3301</p>
+                <p>〒987-2252　宮城県栗原市築館薬師４丁目10-16</p>
+                <p>TEL.0228-24-7015　FAX.0228-23-2470</p>
             </div>
             <div class="menu">
                 <a href="about.html">ファクトリーについて</a>

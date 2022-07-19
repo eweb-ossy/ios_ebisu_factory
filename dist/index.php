@@ -130,10 +130,10 @@
         </div>
     </section>
 
-    <section class="recipe">
+    <!-- <section class="recipe">
         <h2>カンタン！おいしい！レシピ</h2>
         <a href="recipe.html" class="factory-btn">レシピの詳細はこちら</a>
-    </section>
+    </section> -->
 
     <section class="policy">
         <div class="inner">
@@ -181,7 +181,7 @@
         </div>
     </section>
 
-    <section class="voice">
+    <!-- <section class="voice">
         <div class="inner">
             <h2>お客様の声<span>VOICE</span></h2>
             <div class="slide-voice">
@@ -229,7 +229,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <section class="link">
         <div class="inner">
