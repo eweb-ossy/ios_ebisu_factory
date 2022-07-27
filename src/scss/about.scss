@@ -190,7 +190,10 @@ section.links {
 section.access {
     width: 100vw;
     text-align: center;
-    margin-bottom: 210px;
+    padding-bottom: 80px;
+    @include mq(tb) {
+        padding-bottom: 24vw;
+    }
     h2 {
         font-size: 35px;
         font-weight: 600;

@@ -21,6 +21,10 @@
 
 // section tracebility 
 section.tracebility {
+    padding-bottom: 80px;
+    @include mq(tb) {
+        padding-bottom: 24vw;
+    }
     .inner {
         display: flex;
         &:not(:first-child) {

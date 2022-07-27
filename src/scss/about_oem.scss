@@ -91,6 +91,10 @@ section.case {
 
 // section needs 
 section.needs {
+    padding-bottom: 80px;
+    @include mq(tb) {
+        padding-bottom: 24vw;
+    }
     .inner {
         .catch {
             text-align: center;
@@ -255,6 +259,8 @@ section.needs {
                 width: 500px;
                 background-color: $color_factory;
                 color: #fff;
+                padding-left: 0;
+                justify-content: center;
                 @include mq(tb) {
                     width: 84vw;
                 }

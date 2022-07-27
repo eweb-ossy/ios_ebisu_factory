@@ -130,6 +130,10 @@ div.contact .inner {
 
 // section howto
 section.howto {
+    padding-bottom: 80px;
+    @include mq(tb) {
+        padding-bottom: 24vw;
+    }
     h2 {
         text-align: center;
         font-size: 35px;

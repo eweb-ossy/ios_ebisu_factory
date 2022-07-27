@@ -41,9 +41,9 @@
 
 // section product detail 
 section.product_detail {
-    margin-bottom: 175px;
+    padding-bottom: 80px;
     @include mq(tb) {
-        margin-bottom: 24vw;
+        padding-bottom: 24vw;
     }
     .inner {
         width: 1100px;
